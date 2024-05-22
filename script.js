@@ -4,7 +4,7 @@ function generateCard(names, imageName, altText, folderName)
     + names  
     + '</h5> <p class="card-text"> <a href="projects/'
     + folderName 
-    + '/index.html"> <img src="images/' 
+    + '/index.html" target="_blank" rel="noopener noreferrer"> <img src="images/' 
     + imageName 
     + '" alt="'
     + altText
